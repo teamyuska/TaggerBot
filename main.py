@@ -40,9 +40,9 @@ logging.basicConfig(
 )
 LOGGER = logging.getLogger(__name__)
 
-api_id = int(os.environ.get("APP_ID","18049084"))
-api_hash = os.environ.get("API_HASH","7e74b1e22026fcc291d32b3d431aa21e")
-bot_token = os.environ.get("TOKEN","") # Botunuzun Tokenini Girin.
+api_id = int(os.environ.get("APP_ID","7948888"))
+api_hash = os.environ.get("API_HASH","48285ac512613754f7913b310e884222")
+bot_token = os.environ.get("TOKEN","") 
 sahib = os.environ.get("sahib", "") # Sahiplik Hesabin Kullanıcı Adını Girin .
 BOT_ID = int(os.environ.get("BOT_ID", "")) # Botunuzun İd'si ( Tokenin Başındaki Rakamları ) Girin .
 DATABASE_URL = os.environ.get("DATABASE_URL","") # MongoDB veritabanınızın url'si.
